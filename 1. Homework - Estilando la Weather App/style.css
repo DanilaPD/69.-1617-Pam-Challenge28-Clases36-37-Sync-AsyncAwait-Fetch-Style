@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colores: */
+:root {
+    --light-more: rgb(219, 216, 216);
+    --lighter: rgb(192, 192, 192);
+    --light: rgb(169, 169, 169);
+    --dark: rgb(75, 75, 75);
+    --dark-less: rgba(70, 70, 70, 0.178);
+    --dark-less-solid: rgb(70, 70, 70);
+    --background: rgb(32, 32, 32);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--light-more);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    margin: 7% 37%;
+    text-align: center;
+    border: 2px solid var(--light);
+    box-shadow: 0px 0px 5px 0px var(--lighter);
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.inputCiudad {
+    align-items: center;
+    text-align: center;
+}
+
+.searchCity {
+    font-size: 1.7em;
+    font-weight: 900;
+    text-align: center;
+    display: grid;
+}
+
+.searchCity label {
+    font-size: 1em;
+    font-weight: 900;
+    margin: 5% 7%;
+    padding: 1px 29px;
+}
+
+.searchInput {
+    width: 55%;
+    height: 4vh;
+    margin: 5% 22%;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+button {
+    width: 16%;
+    height: 8vh;
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--light-more);
+    border: 2px solid var(--light);
+    box-shadow: 0px 0px 5px 0px var(--lighter);
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: var(--light);
+    color: var(--background);
+}
+
+.temperatura {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+}
+
+.weatherIcon i {
+    font-size: 2em;
+    color: var(--light-more);
+}
+
+.minMax {
+    font-size: 1.7em;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    margin: 3% 0%;
+    padding: 3% 43%;
+}
